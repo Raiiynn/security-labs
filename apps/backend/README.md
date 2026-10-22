@@ -16,7 +16,7 @@ The project supports practical learning in three areas:
 - NestJS
 - TypeScript
 - REST API
-- npm
+- Bun
 - Vitest
 - Supertest
 
@@ -24,16 +24,16 @@ PostgreSQL, TypeORM, JWT, Argon2id, Docker, and other security controls will be 
 
 ## Run the Backend
 
-From `apps/backend`, install the dependencies:
+Use Node.js LTS as the application runtime. From `apps/backend`, install the dependencies with Bun:
 
 ```bash
-npm install
+bun install
 ```
 
 Start the backend in development watch mode:
 
 ```bash
-npm run start:dev
+bun run start:dev
 ```
 
 The API is available at `http://localhost:3000` by default.
@@ -41,9 +41,9 @@ The API is available at `http://localhost:3000` by default.
 Useful verification commands:
 
 ```bash
-npm run build
-npm test
-npm run test:e2e
+bun run build
+bun run test
+bun run test:e2e
 ```
 
 ## API Status Endpoint

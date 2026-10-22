@@ -65,7 +65,7 @@ Avoid unnecessary explanations for concepts I have already demonstrated that I u
 - Tailwind CSS
 
 **Package Manager**
-- npm
+- Bun
 
 ## Module System
 - Use native ECMAScript Modules (ESM).

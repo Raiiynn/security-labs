@@ -16,7 +16,10 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return the API status', () => {
-      expect(appController.getStatus()).toEqual({ name: 'SecureBank API', status:'ok' });
+      expect(appController.getStatus()).toEqual({
+        name: 'SecureBank API',
+        status: 'ok',
+      });
     });
   });
 });
